@@ -46,7 +46,7 @@ namespace Project4 {
 #pragma region Windows Form Designer generated code
 		void InitializeComponent(void)
 		{
-			
+
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
@@ -199,42 +199,42 @@ namespace Project4 {
 
 	private:
 		System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+
 			Project4::simpleks^ simplexForm = gcnew Project4::simpleks();
 			simplexForm->Show();
 		}
 
 	private:
 		System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+
 			Project4::dvoistvennaya^ dvoistForm = gcnew Project4::dvoistvennaya();
 			dvoistForm->Show();
 		}
 
 	private:
 		System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+
 			Project4::odnovremennoeresh^ odnovremForm = gcnew Project4::odnovremennoeresh();
 			odnovremForm->Show();
 		}
 
 	private:
 		System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+
 			Project4::optimal^ optimalForm = gcnew Project4::optimal();
 			optimalForm->Show();
 		}
 
 	private:
 		System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-			
-			Project4::dvoistsimpl^ dvoistsimpForm = gcnew Project4::dvoistsimpl();
-			dvoistsimpForm->Show();
+
+			//Project4::dvoistsimpl^ dvoistsimpForm = gcnew Project4::dvoistsimpl();
+			//dvoistsimpForm->Show();
 		}
 
 	private:
 		System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-			
+
 			Project4::transportnaya^ transForm = gcnew Project4::transportnaya();
 			transForm->Show();
 		}
